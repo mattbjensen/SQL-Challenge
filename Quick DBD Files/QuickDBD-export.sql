@@ -15,11 +15,11 @@ CREATE TABLE "Departments" (
 
 CREATE TABLE "Dept_Employees" (
     "emp_no" int   NOT NULL,
-    "dept_no" varcahr(4)   NOT NULL
+    "dept_no" varchar(4)   NOT NULL
 );
 
 CREATE TABLE "Dept_Managers" (
-    "dept_no" int   NOT NULL,
+    "dept_no" varchar(4)   NOT NULL,
     "emp_no" int   NOT NULL
 );
 
